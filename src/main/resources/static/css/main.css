@@ -1,0 +1,107 @@
+.RED {
+    color: red;
+}
+
+.BLACK {
+    color: black;
+}
+
+.CYAN {
+    color: CYAN;
+}
+
+.MAGENTA {
+    color: magenta;
+}
+
+.GREEN {
+    color: green;
+}
+
+.YELLOW {
+    color: yellow;
+}
+
+.BLUE {
+    color: blue;
+}
+
+.ORANGE {
+    color: orange;
+}
+
+.GRAY {
+    color: gray;
+}
+
+.users {
+    list-style-type: none;
+    float: right;
+    padding: 5px;
+    overflow: scroll;
+    height: 347px;
+}
+
+.messages {
+    float: left;
+    position: relative;
+    list-style: none;
+    padding: 20px 10px 0 10px;
+    border-right: 1px solid;
+    margin: 0;
+    height: 347px;
+    width: 450px;
+    overflow: scroll;
+}
+
+.chat {
+    border: 1px solid #333;
+    margin: 15px;
+    width: 70%;
+    height: 70%;
+    background: #555;
+    color: #fff;
+}
+
+.chat-messages {
+    alignment: left;
+    min-height: 93%;
+    max-height: 93%;
+    overflow: auto;
+}
+
+.chat-messages__content {
+    padding: 1px;
+    float: left;
+
+}
+
+.chat__message {
+    border-left: 3px solid #333;
+    margin-top: 2px;
+    padding: 2px;
+}
+
+.chat-input {
+    min-height: 6%;
+}
+
+input {
+    font-family: arial;
+    font-size: 16px;
+    vertical-align: middle;
+    background: #333;
+    color: #fff;
+    border: 0;
+    display: inline-block;
+    margin: 1px;
+    height: 30px;
+}
+
+.chat-form__input {
+    width: 79%;
+}
+
+.chat-form__submit {
+    width: 18%;
+}
